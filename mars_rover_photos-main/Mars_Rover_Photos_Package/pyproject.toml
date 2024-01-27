@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "prime_pl2889"
+version = "0.1.0"
+description = "It is about prime function for mds hw7"
+authors = ["Judyli"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+package-name = "^0.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+package-name = "^0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
